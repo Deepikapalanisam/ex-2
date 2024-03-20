@@ -1,0 +1,84 @@
+h3{
+    color: white;
+    text-align: center ;
+    text-transform: none;
+}
+
+h4{
+    text-decoration: underline;
+    text-align: center;
+    text-transform: none;
+    color: darkcyan;
+}
+.leftsplit {
+    background-color: darkcyan;
+    height: 100vh;
+    width: 25%;
+    position: fixed;
+    left: 0;
+    top:0;
+    text-align: center;
+    position: absolute;
+}
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    top: 25%;
+}
+.rightsplit {
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 75%; 
+    right: 0;
+    top: 0;
+    overflow-y: auto; 
+    position: fixed;
+}
+
+td{
+    text-align: center;
+    border:1px solid black;
+    padding: 10px;
+}
+tr{
+    text-align: center;
+    border:1px solid black;
+    padding: 10px;
+}
+
+th{
+    text-align: center;
+    border:1px solid black;
+    padding: 10px;
+}
+.division{
+    background-color:cyan;
+     padding: 20px;
+}
+table{
+    border:1px solid black;
+    width :100%;
+}
+a {
+    color: white; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+ul li {
+    background:rgb(113, 234, 234);
+    padding: 1px;
+    margin: 5px;
+}
+
+.division:hover{
+    background-color:green;
+}
+.division:target {
+    background-color: pink;
+}
+
